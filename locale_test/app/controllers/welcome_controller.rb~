@@ -1,0 +1,6 @@
+class WelcomeController < ApplicationController
+  def index
+	#flash[:hello] = t(:hello)
+	@helloc = t(:hello_yml)
+  end
+end
